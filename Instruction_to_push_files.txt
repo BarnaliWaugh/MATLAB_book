@@ -1,0 +1,12 @@
+To connect to github and create a local instance:
+git clone https://github.com/BarnaliWaugh/MATLAB_book.git
+
+To upload a file:
+cd MATLAB_book/
+git init
+git remote add origin https://github.com/BarnaliWaugh/MATLAB_book.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
